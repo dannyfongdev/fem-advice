@@ -16,7 +16,9 @@
 body {
   background-color: var(--neutral-color-3);
   color: var(--primary-color);
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* mobile first design */
@@ -36,9 +38,13 @@ body {
 .id-num {
   color: var(--accent-color);
   text-align: center;
-  font-size: .6rem;
+  font-size: 0.6rem;
   font-weight: 100;
   letter-spacing: 0.3rem;
+}
+
+.quote-wrapper {
+  text-align: center;
 }
 
 .quote-wrapper img {
@@ -71,4 +77,27 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Desktop Version */
+@media (min-width: 420px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .quote-wrapper img {
+    margin-bottom: 20px;
+  }
+
+  .id-num {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.3rem;
+  }
+
+  .quote {
+    font-size: 28px;
+    text-align: center;
+  }
 }
