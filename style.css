@@ -22,7 +22,7 @@ body {
 /* mobile first design */
 .container {
   max-width: 345px;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 100px auto;
   padding: 25px;
   background-color: var(--neutral-color-2);
   border-radius: 10px;
@@ -47,6 +47,7 @@ body {
 
 .quote-wrapper img {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .dice-wrapper {
@@ -81,16 +82,14 @@ body {
 @media (min-width: 420px) {
   .container {
     max-width: 540px;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 100px auto;
   }
 
   .quote-wrapper img {
     margin-top: 10px;
     margin-bottom: 20px;
-  }
-
-  .quote-wrapper img {
-    margin-bottom: 20px;
+    width: auto;
+    content: url('images/pattern-divider-desktop.svg');
   }
 
   .id-num {
