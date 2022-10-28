@@ -17,14 +17,12 @@ body {
   background-color: var(--neutral-color-3);
   color: var(--primary-color);
   font-family: "Manrope", sans-serif;
-  height: 100vh;
-  width: 100vw;
 }
 
 /* mobile first design */
 .container {
   max-width: 345px;
-  margin: 120px auto;
+  margin: 100px auto 100px auto;
   padding: 25px;
   background-color: var(--neutral-color-2);
   border-radius: 10px;
@@ -83,6 +81,12 @@ body {
 @media (min-width: 420px) {
   .container {
     max-width: 540px;
+    margin: 100px auto 100px auto;
+  }
+
+  .quote-wrapper img {
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   .quote-wrapper img {
