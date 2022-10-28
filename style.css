@@ -82,7 +82,7 @@ body {
 @media (min-width: 420px) {
   .container {
     max-width: 540px;
-    margin: 50px auto 100px auto;
+    margin: 220px auto 100px auto;
   }
 
   .quote-wrapper img {
