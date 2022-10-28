@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --primary-color: hsl(193, 38%, 86%);
+  --accent-color: hsl(150, 100%, 66%);
+  --neutral-color-1: hsl(217, 19%, 38%);
+  --neutral-color-2: hsl(217, 19%, 24%);
+  --neutral-color-3: hsl(218, 23%, 16%);
+}
+
+body {
+  background-color: var(--neutral-color-3);
+  color: var(--primary-color);
+  font-family: 'Manrope', sans-serif;
+}
+
+/* mobile first design */
+.container {
+  max-width: 345px;
+  margin: 120px auto;
+  padding: 25px;
+  background-color: var(--neutral-color-2);
+  border-radius: 10px;
+}
+
+.quote {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.id-num {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: .6rem;
+  font-weight: 100;
+  letter-spacing: 0.3rem;
+}
+
+.quote-wrapper img {
+  margin-bottom: 20px;
+}
+
+.dice-wrapper {
+  background-color: var(--accent-color);
+  margin: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  position: relative;
+  top: 58px;
+  margin-top: -50px;
+}
+
+.dice-wrapper:hover {
+  box-shadow: 0 0 35px var(--accent-color);
+}
+
+.dice-wrapper img {
+  padding: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
