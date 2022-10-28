@@ -8,6 +8,7 @@ const adviceString = document.querySelector('#advice-string');
 // Click dice event listening
 document.querySelector("#dice-button").addEventListener('click', (e) => {
   getAdvice();
+  e.preventDefault();
 })
 
 function getAdvice() {
